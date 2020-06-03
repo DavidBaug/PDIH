@@ -18,7 +18,7 @@ codigo segment 'code'
             inc cx      ; Incrementar cx
             cmp cx, 7   ; Comprobar si cx es 7
             jne bucle   ; Si cx != 7 volvemos a iterar
-		mov ax, 4C00h
+		mov ax, 4C00h ; return
 		int 21h
     main ENDP
 codigo ends

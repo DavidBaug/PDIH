@@ -5,7 +5,7 @@
 
 Para la instalación del software he seguido el guión del seminario y lo he instalado en un sistema Windows 10 de 64 bits.
 
-Tras instalarlo configuro la opción para montar automáticamente un directorio modificando el archivo `C:\Users\baugd\AppData\Local\DOSBox\dosbox-0.74-3.conf` y añadiendo al final del mismo `mount C D:\Git\PDIH\S1;` y `C:`.
+Tras instalarlo configuro la opción para montar automáticamente un directorio modificando el archivo `C:\Users\baugd\AppData\Local\DOSBox\dosbox-0.74-3.conf` y añadiendo al final del mismo `mount C D:\Git\PDIH;` y `C:`.
 
 De esta forma monto el directorio de trabajo y accedo directamente a él.
 
@@ -17,7 +17,7 @@ Para el primer ejercicio he descargado el juego DOOM y desde la consola he ejecu
 
 #### 2. Configurar el inicio de DOSBox para que monte en la unidad C: el directorio donde se encuentra el entorno de programación Borland C (que incluye las herramientas para compilar no sólo lenguaje C, sino también ensamblador). Añadir a la variable “PATH” de inicio el directorio “bin” donde se encuentra el ejecutable BC.EXE.
 
-En el directorio S1 extraigo todo lo relativo a Bordlan C, con lo que para añadirlo al path lo único que he tenido que hacer es `set path=%path%;c:\bc\bin`.
+En el directorio S1 extraigo todo lo relativo a Bordlan C, con lo que para añadirlo al path lo único que he tenido que hacer es `set path=%path%;c:S1\bc\bin`.
 
 Una vez hecho esto ya podemos usar tanto *tasm* como *tlink*.
 
