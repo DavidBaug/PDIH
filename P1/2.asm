@@ -69,8 +69,8 @@ codigo segment 'code'
 		modo_video GRAFICO
 
 		; linea horizontal superior
-		mov cx,240
-        mov bx,80
+		mov cx,260
+        mov bx,60
 		bucle1:
 			pixel cx,90,BLANCO
 			dec cx
@@ -78,8 +78,8 @@ codigo segment 'code'
 			jne bucle1
 
         ; linea horizontal inferior
-		mov cx,240
-        mov bx,79
+		mov cx,260
+        mov bx,59
 		bucle2:
 			pixel cx,110,BLANCO
 			dec cx
@@ -90,7 +90,7 @@ codigo segment 'code'
 		mov cx,90
         mov bx,110
 		bucle3:
-			pixel 80,cx,BLANCO
+			pixel 60,cx,BLANCO
 			inc cx
             cmp cx,bx
 			jne bucle3
@@ -99,7 +99,7 @@ codigo segment 'code'
 		mov cx,90
         mov bx,110
 		bucle4:
-			pixel 240,cx,BLANCO
+			pixel 260,cx,BLANCO
 			inc cx
             cmp cx,bx
 			jne bucle4
@@ -112,7 +112,6 @@ codigo segment 'code'
 
     ; Punto BLANCO
     pixel 230,100,BLANCO
-
 
 		; Pausamos y volvemos a 80x25
 		pausa
