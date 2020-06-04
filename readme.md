@@ -9,6 +9,6 @@ Curso 19-20 Universidad de Granada.
 
 ## Índice
 
-- ### Práctica 1: [Introducción a la programación de periféricos](P1/README.md)
+- ### Práctica 1: [Introducción a la programación de periféricos](P1/)
 
-- ### Práctica 2: [Entrada/Salida utilizando interrupciones con lenguaje C](P2/README.md)
+- ### Práctica 2: [Entrada/Salida utilizando interrupciones con lenguaje C](P2/)
