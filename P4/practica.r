@@ -82,3 +82,4 @@ plot(extractWave(ovejaECOalreves, from = 1, to = length(ovejaECOalreves)), main=
 listen(ovejaECOalreves)
 
 writeWave(ovejaECOalreves, file.path("./sonidos/alreves.wav"))
+
