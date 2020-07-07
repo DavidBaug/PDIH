@@ -50,30 +50,55 @@ Como los dispositivos pueden tener distintas velocidades puede llegar a darse un
   - Mixto: Pantalla táctil, tarjeta de red, ...
 
 Un dispositivo de interfaz humana es aquél que proporciona un método de interacción con un dispositivo electrónico a un humano mediante la entrada o salida de interacción.
+ - Periféricos: Pueden no interactuar con un humano. Son hardware.
+ - Dispositivo de interfaz humana: Interactúa con un humano. Hardware o software.
 
-Periféricos: Pueden no interactuar con un humano. Son hardware.
-Dispositivo de interfaz humana: Interactúa con un humano. Hardware o software.
+
+La interfaz es la encargada de mediar entre la máquina y el humano. Transforma las señales para que el sistema lo entienda y viceversa. Podemos distinguir entre:
+ - Interfaz física: formada por componentes electrónicos (adaptadores, conectores, etc). Parte hardware de la interfaz.
+ - Interfaz lógica: conjunto de instrucciones que entiende el periférico, datos que proporciona a la unidad básica. Parte software de la interfaz.
 
 
-La interfaz es la encargada de mediar entre la máquina y el humano. Transforma las señales para que el sistema lo entienda y viceversa.
-
-Interfaz física: formada por componentes electrónicos (adaptadores, conectores, etc). Parte hardware de la interfaz.
-
-Interfaz lógica: conjunto de instrucciones que entiende el periférico, datos que proporciona a la unidad básica. Parte software de la interfaz.
-
-Los dispositivos de almacenamiento solventan el problema de la volatilidad y pequeña capacidad de la memoria interna. Son dispositivos bidireccionales (E/S).
-
-Los dispositivos de comunicaciones intercambian información con otros computadores o terminales de datos. Transmiten datos a través de líneas de comunicación y redes de diferente tipo. Son dispositivos bidireccionales o mixtas (E/S).
 
 ### Clasificación
+
+A parte de los dispositivos de entrada y salida podemos encontrar también:
+
+ - Dispositivos de almacenamiento: solventan el problema de la volatilidad y pequeña capacidad de la memoria interna. Son dispositivos bidireccionales (E/S).
+ - Dispositivos de comunicaciones: intercambian información con otros computadores o terminales de datos. Transmiten datos a través de líneas de comunicación y redes de diferente tipo. Son dispositivos bidireccionales o mixtas (E/S).
+
+Podemos dividirlos en distintos niveles.
+
+![](imgs/1.png)
+
+![](imgs/2.png)
 
 
 ### Controladoras de periféricos
 
 Al contar con una gran cantidad de dispositivos se necesita un subsistema encargado de atenderlos y establecer la comunicación con el sistema.
 
+La parte mecánica está controlada por la parte electrónica, es la base con la que opera la parte electrónica.
+
 La parte electrónica es la controladora del periférico. Interpreta órdenes que le llegan del procesador, para recibir/enviar datos, y para generar las señales de control para gestionar la parte mecánica (y así captar los datos si es entrada, o escribir los datos si es salida).
 
 La parte electrónica tiene sensores para recoger la información: elementos opto-electrónicos, detectores de posición, etc.
 
- 
+El procesador actúa sobre los periféricos a través de los registros de la controladora. El procesador los ve como puertos de E/S y accede a ellos mediante instrucciones máquina o interrupciones software.
+
+A nivel de S.O. se necesita un software que trate con la controladora del periférico y que gestione las transferencias de información.
+
+Las controladoras pueden estar en la placa madre o en el mismo dispositivo y llevan a cabo:
+ - Selección y direccionamiento del periférico.
+  - Sincronización (regula la velocidad de transferencias para evitar
+pérdidas).
+ - Control del periférico (enviando señales de control, recogiendo las
+de estado, y controlando errores).
+ - Almacenamiento temporal, usando buffers temporales y registros.
+
+Para adaptarse a los demás dispositivos son capaces de trabajar de forma autónoma implementando varias técnicas:
+ - Operación asíncrona
+ - Diferencia de velocidad
+ - Interfaces de E/S
+ - E/S programada vs E/S por interrupciones
+ - Uso de buffers
