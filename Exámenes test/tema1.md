@@ -1,6 +1,6 @@
 # Preguntas tema 1
 
-1. ¿Qué ventajas ofrece una interconexión mediante bus único?:
+1. **¿Qué ventajas ofrece una interconexión mediante bus único?:**
  <ol type="a">
    <li>Al estar todos los componentes en el mismo bus la transmisión de información es más rápida.</li>
    <li>Un sólo bus reduce el coste de fabricación y la complejidad.</li>
@@ -10,7 +10,7 @@
 
  Solución: (b) Tener un sólo bus reduce el coste, pero reduce la velocidad ya que sólo una unidad puede tener el control en cada momento.
 
-2. El famoso cuello de botella se da cuando:
+2. **El famoso cuello de botella se da cuando:**
 
 <ol type="a">
   <li>La controladora de E/S está muy saturada al controlar varios dispositivos.</li>
@@ -22,7 +22,7 @@
 Solución: (d) Que un dispositivo sea más rápido que otro implica que este acabe antes su tarea y tenga que esperar la respuesta del otro, lo que reduce considerablemente la velocidad del sistema.
 
 
-3. Un dispositivo de interfaz humana es:
+3. **Un dispositivo de interfaz humana es:**
 
 <ol type="a">
   <li>Un periférico que interactúa con un humano.</li>
@@ -33,7 +33,7 @@ Solución: (d) Que un dispositivo sea más rápido que otro implica que este aca
 
 Solución: (d) Un dispositivo de interfaz humana es un dispositivo con el que un humano interactúa y puede ser hardware o software.
 
-4. Dentro de la interfaz distinguir:
+4. **Dentro de la interfaz distinguir:**
 
 <ol type="a">
   <li>Interfaz física, interfaz electrónica e interfaz lógica.</li>
@@ -44,7 +44,7 @@ Solución: (d) Un dispositivo de interfaz humana es un dispositivo con el que un
 
 Solución: (b) La interfaz física está formada por los componentes electrónicos del dispositivo, es la parte hardware del mismo. La interfaz lógica, al contrario, es la encargada de tratar con los datos que maneja el dispositivo. Es la parte software del mismo.
 
-5. Un adaptador de internet USB (interfaz para red inalámbrica) es:
+5. **Un adaptador de internet USB (interfaz para red inalámbrica) es:**
 <ol type="a">
   <li>Un dispositivo de entrada.</li>
   <li>Un dispositivo mixto.</li>
@@ -54,7 +54,7 @@ Solución: (b) La interfaz física está formada por los componentes electrónic
 
 Solución: (c) Es un dispositivo de comunicaciones, ya que permite la comunicación entre otros dispositivos para la transmisión de datos.
 
-6. En la parte hardware de un dispositivo podemos encontrar:
+6. **En la parte hardware de un dispositivo podemos encontrar:**
 <ol type="a">
   <li>La interfaz fisica y los componentes.</li>
   <li>La interfaz física, los componentes y los fundamentos físicos.</li>
@@ -64,7 +64,7 @@ Solución: (c) Es un dispositivo de comunicaciones, ya que permite la comunicaci
 
 Solución: (a) Encontramos la interfaz física y los componentes del dispositivo.
 
-7. El firmware de un dispositivo es:
+7. **El firmware de un dispositivo es:**
 <ol type="a">
   <li>La interfaz lógica del dispositivo.</li>
   <li>Una funcionalidad del SO que permite operar con el dispositivo.</li>
@@ -74,7 +74,7 @@ Solución: (a) Encontramos la interfaz física y los componentes del dispositivo
 
 Solución: (d) La interfaz firmware se comunica tanto con el S.O. como con los programas de aplicación a través de interrupciones software.
 
-8. En la controladora de un periférico la parte mecánica:
+8. **En la controladora de un periférico la parte mecánica:**
 <ol type="a">
   <li>Está controlada por el procesador.</li>
   <li>Es la que transforma las órdenes del procesador.</li>
@@ -85,7 +85,7 @@ Solución: (d) La interfaz firmware se comunica tanto con el S.O. como con los p
 Solución: (d) Es la que usa la parte electrónica para recibir la información que llega, pero es la parte electrónica la encargada de interpretar las órdenes.
 
 
-9. En la E/S controlada por programa:
+9. **En la E/S controlada por programa:**
 <ol type="a">
   <li>El dispositivo manda a una señal de control al programa indicando su estado.</li>
   <li>El procesador evalúa contínuamente el estado del dispositivo en busca de cambios.</li>
@@ -96,7 +96,7 @@ Solución: (d) Es la que usa la parte electrónica para recibir la información 
 Solución: (b) El procesador pregunta constantemente al dispositivo si tiene listos los datos.
 
 
-10. Para paliar la diferencia de velocidad entre los dispositivos, las controladoras pueden:
+10. **Para paliar la diferencia de velocidad entre los dispositivos, las controladoras pueden:**
 <ol type="a">
   <li>Recoger los datos del dispositivo en la interfaz de E/S</li>
   <li>usar E/S controlada por interrupciones.</li>

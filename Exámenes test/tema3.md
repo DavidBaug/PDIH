@@ -1,6 +1,6 @@
 # Preguntas tema 3
 
-1. ¿Qué es una interfaz?:
+1. **¿Qué es una interfaz?:**
 <ol type="a">
   <li>nexo de conexión que facilita la
 comunicación entre dos dispositivos</li>
@@ -11,7 +11,7 @@ comunicación entre dos dispositivos</li>
 
 Solución: (a) Es aquél que permite la communicación entre los dispositivos e incluye driver del disposivo, adaptador del host y controladora.
 
-2. Podemos dividir el modelo de interfaz en:
+2. **Podemos dividir el modelo de interfaz en:**
 <ol type="a">
   <li>Capa hardware y software</li>
   <li>Capa física, de protocolo y de enlace</li>
@@ -21,7 +21,7 @@ Solución: (a) Es aquél que permite la communicación entre los dispositivos e 
 
 Solución: (d) Lo podemos dividir en física, protocolo, modelo de dispositivo y modelo de instrucciones.
 
-3. Los pasos desde que un dispositivo genera datos hasta que los podemos usar son:
+3. **Los pasos desde que un dispositivo genera datos hasta que los podemos usar son:**
 <ol type="a">
   <li>Se detecta la señal en el dispositivo y la controladora manda los datos, pasan a través del adaptador y el controlador del dispositivo las traduce para el sistema operativo</li>
   <li>Se detecta la señal en la capa física, la capa de protocolo manda los datos, la capa de enlace las traduce para el sistema operativo</li>
@@ -31,7 +31,7 @@ Solución: (d) Lo podemos dividir en física, protocolo, modelo de dispositivo y
 
 Solución: (a) La interfaz es la encargada de comunicar los dispositivos entre sí. Para ello incluye principalmente el device driver, host adapter y controller.
 
-4. Las ranuras para tarjetas de expansión:
+4. **Las ranuras para tarjetas de expansión:**
 <ol type="a">
   <li>También conocidas como ranuras PCI-E, permiten conectar una tarjeta gráfica</li>
   <li>Permiten añadir módulos RAM</li>
@@ -41,7 +41,7 @@ Solución: (a) La interfaz es la encargada de comunicar los dispositivos entre s
 
 Solución: (d) Existen varios tipos con distintas tecnologías y permiten conectar multitud de dispositivos distintos.
 
-5. Las ranuras PCI-Express se suelen usar para conectar:
+5. **Las ranuras PCI-Express se suelen usar para conectar:**
 <ol type="a">
   <li>Tarjetas gráficas</li>
   <li>Adaptadores de red wifi</li>
@@ -51,7 +51,7 @@ Solución: (d) Existen varios tipos con distintas tecnologías y permiten conect
 
 Solución: (d) Son ranuras con un gran ancho de banda y compatibilidad a nivel de software con PCI, lo que las hace ideales para los casos anteriores.
 
-6. En los disposivos de almacenamiento antiguos se usaba un cable IDE para:
+6. **En los disposivos de almacenamiento antiguos se usaba un cable IDE para:**
 <ol type="a">
   <li>Alimentar al dispositivo</li>
   <li>Seleccionar entre maestro o esclavo entre varios discos</li>
@@ -61,7 +61,7 @@ Solución: (d) Son ranuras con un gran ancho de banda y compatibilidad a nivel d
 
 Solución: (c) El cable mólex es el encargado de suplir la energia necesaria para su funcionamiento y mediante otros conectores auxiliares se configura el maestro-esclavo.
 
-7. Diferencias entre SATA y PATA:
+7. **Diferencias entre SATA y PATA:**
 <ol type="a">
   <li>Velocidad y refrigeración</li>
   <li>Uniformidad, no existe relación maestro-esclavo</li>
@@ -71,7 +71,7 @@ Solución: (c) El cable mólex es el encargado de suplir la energia necesaria pa
 
 Solución: (d) SATA es la renovación de PATA, mejora los aspectos de IDE y la configuración de los discos se da en el sistema, en vez de tener una interfaz en cada unidad.
 
-8. SCSI es:
+8. **SCSI es:**
 <ol type="a">
   <li>un conector cuyo objetivo es presentar una interfaz independiente de la unidad básica para conectar dispositivos</li>
   <li>un conector que permite la conexión de dispositivos entrada</li>
@@ -81,7 +81,7 @@ Solución: (d) SATA es la renovación de PATA, mejora los aspectos de IDE y la c
 
 Solución: (a) Permite gestionar varios dispositivos de forma eficiente y es más eficaz que SATA a la hora de conectar varios discos.
 
-9. ¿Qué son los conectores externos?:
+9. **¿Qué son los conectores externos?:**
 <ol type="a">
   <li>Son conectores que se suelen situar en la parte posterior de la placa y permiten conectar periféricos externos</li>
   <li>Son aquellos en los que conectanos dispositivos que no necesitan de interfaz para comunicarse con el S.O.</li>
@@ -92,7 +92,7 @@ Solución: (a) Permite gestionar varios dispositivos de forma eficiente y es má
 Solución: (a) Sí que son conectores similares a los internos, pues sirven para conectar dispositivos, pero su propósito no es el mismo. Son los principales que permiten que el usuario pueda interactuar con el sistema.
 
 
-10. Para configrar un RAID en el que tenemos dos discos de misma capacidad y queremos crear en uno de ellos una copia exacta del otro usaremos:
+10. **Para configrar un RAID en el que tenemos dos discos de misma capacidad y queremos crear en uno de ellos una copia exacta del otro usaremos:**
 <ol type="a">
   <li>RAID 0</li>
   <li>RAID 1</li>
